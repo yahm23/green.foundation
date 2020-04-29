@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-<<<<<<< HEAD
+
     <Router>
       <nav>
         <ul className="navbar">
@@ -24,24 +24,7 @@ function App() {
         <Route render={()=><h1> 404: Page not found</h1>}/>
       </Switch>
     </Router>
-=======
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
->>>>>>> parent of b3b5d03... Basic Routing complete
+    
   );
 }
 
