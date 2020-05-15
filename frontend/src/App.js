@@ -16,7 +16,7 @@ function App() {
           <h3><Link to='/about'>About</Link></h3>
           <h3><Link to='/Blog'>Blog</Link></h3>
           <h3><Link to='/contact'>Contact</Link></h3>
-        </ul>
+        </ul>  
       </nav>
       <Switch>
         <Route path='/' exact component ={Home}/>
